@@ -26,4 +26,12 @@ This is a task list application developed using Java, XML, JavaScript, Node.js, 
 1. Clone the repository:
    ```bash
    git clone https://github.com/GabrielSilva87/Server-4.00/blob/main/README.md
-## How using
+## Usage
+1. **Start the server**: Run the command `npm start` in the terminal to start the server.
+2. **Access the application**: Open your browser and navigate to `http://localhost:3000`.
+3. **Interact with the application**: Use the available features to manage your tasks.
+
+## Instructions
+- **Registration**: Create a new account by clicking on "Register" on the homepage.
+- **Login**: Enter your credentials and click "Login" to access your account.
+- **Task Management**: Use the available buttons to add, edit, or delete tasks as needed.
