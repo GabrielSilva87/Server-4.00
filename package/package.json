@@ -1,0 +1,16 @@
+{
+  "name": "meu-servidor",
+  "version": "1.0.0",
+  "description": "Um servidor básico em Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "keywords": [],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
