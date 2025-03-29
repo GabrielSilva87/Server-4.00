@@ -5,6 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Node.js](https://img.shields.io/badge/Node.js-14-green)
 ![React](https://img.shields.io/badge/React-17.0.2-lightblue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Overview
 This is a task list application developed using Java, XML, JavaScript, Node.js, and React. The application enables users to create, manage, and track their tasks efficiently, providing a user-friendly interface and seamless interaction.
