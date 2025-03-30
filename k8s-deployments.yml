@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: task-list-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: task-list
+  template:
+    metadata:
+      labels:
+        app: task-list
+    spec:
+      containers:
+        - name: web
+          image: your-docker-image
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: MONGO_URI
+              value: "mongodb://mongo:27017/tasklist"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: task-list-service
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 3000
+  selector:
+    app: task-list
