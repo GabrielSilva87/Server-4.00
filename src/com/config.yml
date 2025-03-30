@@ -1,0 +1,14 @@
+app:
+  name: Task List Application
+  version: 1.0.0
+  port: 3000
+
+database:
+  uri: mongodb://mongo:27017/tasklist
+  options:
+    useNewUrlParser: true
+    useUnifiedTopology: true
+
+jwt:
+  secret: your_jwt_secret
+  expiration: 1h
